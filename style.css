@@ -23,6 +23,7 @@ body{
     align-items: center;
     justify-content: center;
     position: relative;
+    transition: all 0.8s ease-in;
 }
 
 .img{
@@ -38,6 +39,7 @@ body{
     width: 45%;
     height: 100%;
     padding: 20px;
+    transition: all 0.8s ease-in;
 }
 
 h1{
@@ -63,6 +65,7 @@ form{
    flex-direction: column;
    align-items: flex-start;
    justify-content: flex-start; 
+   transition: all 0.8s ease-in;
 }
 
 .box{
@@ -70,6 +73,7 @@ form{
     flex-direction: column;
     margin: 5px;
     margin-top: 0px;
+    transition: all 0.8s ease-in;
 }
 
 .box label{
@@ -88,10 +92,12 @@ form{
     outline: 0;
 }
 
-.box input.active{
+
+input.active{
     background-color: #47b83f94;
     border-left: 5px solid #47B83F;
     border-radius: 0;
+    
 }
 
 button{
@@ -101,4 +107,8 @@ button{
     border-radius: 5px;
     background-color: #000;
     color: #fff;
+}
+
+.sign span{
+    color: #47B83F;
 }
