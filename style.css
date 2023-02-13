@@ -119,13 +119,6 @@ button{
     cursor: pointer;
 }
 
-.btn{
-    position: absolute;
-    right: 10px;
-    bottom: 15px;
-    color: #dd0a0a;
-}
-
 .sign span{
     color: #47B83F;
 }
